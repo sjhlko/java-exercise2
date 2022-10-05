@@ -4,6 +4,9 @@ public class SwapExercise {
         int b = 20;
 
         int temp =a;
+        a=b;
+        b=temp;
+        System.out.printf("%d, %d",a,b);
 
     }
 }
